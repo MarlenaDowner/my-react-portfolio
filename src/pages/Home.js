@@ -1,5 +1,9 @@
+// import logo from "../pictures/"; 
+// import logo from '../assets/pictures/1homepage.png';
+
 const Home = () => {
     return <div className="BackgroundImage">
+        {/* <img src={logo} alt="logo" /> */}
 
 
         <section className="jumbo">
@@ -9,6 +13,11 @@ const Home = () => {
                                 <h2 className= "HomeH1"> Hi! I'm Marlena</h2>
                                 {/* <p>Front End Web Developer</p> */}
                                 <div class="intro">I’m an <h1 className="pBack">Apprentice Web-Developer</h1> in a 18 month Software Engineer Apprenticeship. I’m also soon to be finishing a 16-week bootcamp in Front-End Web Development. As a resilient individual, I have learnt programming interfaces, user experience design, and building and deploying modern web applications. My goal once finishing my apprentiship is to implement and use these fresh skills in my career as a Software Engineer.</div>
+                                <br></br>
+                                <button className="HomeBtn" type="button" class="btn btn">Projects!</button>
+                                <div class="landingPic">
+                                
+                                </div>
                             </div>
 
                         </div>
