@@ -8,6 +8,7 @@ import project5 from "../assets/pictures/Project5.JPG";
 import project6 from "../assets/pictures/Project6.JPG";
 
 
+
 const cardsData = [
   {
     title: "Refactoring Existing Site",
@@ -47,7 +48,10 @@ const Projects = () => {
       <br />
       <div class="container">
         <div>
-        <h1 className="ProjectHeader">Projects!</h1>
+        <h1 className="ProjectHeader">Welcome to my Projects!</h1>
+        <h2 className="ProjectsH2"> Have a look around 👀</h2>
+        <div class="Projectintro">My projects below is an exibition of my different skills sets I have learnt while taking my bootcamp in <h1 className="pBack">Front-End Web Development</h1>.My projects was created using: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js and Local Storage.</div>
+        <br></br>
           <div className="row">
             {cardsData.map((card, index) => (
               <div key={index} className="col-sm-6 col-md-4">
@@ -68,5 +72,6 @@ const Projects = () => {
 
   );
 };
+
 
 export default Projects;

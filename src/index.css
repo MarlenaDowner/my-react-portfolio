@@ -102,7 +102,7 @@ body {
 }
 
 
-.HomeH1 {
+.HomeH2 {
   font-size: 3em;
   color: #0059C1;
   margin-bottom: 10px;
@@ -168,9 +168,26 @@ h1, p {
 }
 
 .ProjectHeader {
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-flex;
   background-color: #AF89FF; 
   padding: 6px;
+}
+
+.ProjectsH2 {
+  font-size: 2em;
+  color: #0059C1;
+  margin-bottom: 10px;
+}
+
+
+.Projectintro {
+
+  font-size: 1em;
+  /* text-align: justify; */
+  color: #0059C1;
+  font-weight: bold;
+  /* max-width: 720px; */
 }
