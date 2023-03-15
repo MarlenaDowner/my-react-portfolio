@@ -9,7 +9,6 @@
 .body1 {
   background: url("./assets/pictures/1homepage.png");
   min-height: 100%;
-  min-height: 100vh;
   background-size: cover;
 
 }
@@ -17,13 +16,14 @@
 
 .body2 {
   background: url("./assets/pictures/2projects.png");
-  height: 100vh;
+  height: 100%;
   background-size: cover;
 
 }
 
 .body3 {
   background: url("./assets/pictures/4contact.png");
+  min-height: 100%;
   height: 100vh;
   background-size: cover;
 
@@ -43,6 +43,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ----------------------Landing Page--------------------- */
 
 /* Header */
 
@@ -65,8 +66,19 @@ body {
 }
 
 .Welcome {
+  font-weight: bold;
   margin-bottom: 5px;
   display: inline-flex;
+  background-color: #AF89FF; 
+  padding: 6px;
+}
+
+.ProjectWelcome {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  display: inline-block;
+  /* display: inline-flex; */
   background-color: #AF89FF; 
   padding: 6px;
 }
@@ -143,4 +155,22 @@ h1, p {
 }
 
 
-/* card */
+.container {
+  /* display: block; */
+  justify-content: center;
+}
+
+/* ----------------------Projects Page--------------------- */
+
+.col-sm-6 {
+  min-width: 300px;
+  padding-bottom: 10px;
+}
+
+.ProjectHeader {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-flex;
+  background-color: #AF89FF; 
+  padding: 6px;
+}
