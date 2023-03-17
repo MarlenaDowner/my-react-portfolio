@@ -71,6 +71,7 @@ body {
   display: inline-flex;
   background-color: #AF89FF; 
   padding: 6px;
+  border-radius: 12px;
 }
 
 .ProjectWelcome {
@@ -90,6 +91,7 @@ body {
   display: inline-flex;
   background-color: #AF89FF; 
   padding: 3px;
+  border-radius: 12px;
 }
 
 .viewButton {
@@ -99,6 +101,7 @@ body {
   display: inline-flex;
   background-color: #AF89FF; 
   padding: 3px;
+  border-radius: 12px;
 }
 
 
@@ -174,6 +177,7 @@ h1, p {
   display: inline-flex;
   background-color: #AF89FF; 
   padding: 6px;
+  border-radius: 12px;
 }
 
 .ProjectsH2 {

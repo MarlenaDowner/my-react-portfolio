@@ -12,33 +12,45 @@ import project6 from "../assets/pictures/Project6.JPG";
 const cardsData = [
   {
     title: "Refactoring Existing Site",
-    text: "My main objective while refactoring the Horiseon existing site was to make the site more accessible, ensuring that people with disabilities could access the website using assistive technologies such as video captions, screen readers, or braille keyboards. The refactoring of the site also improved the site's accessibility and it's search engine optimization.",
+    text: "",
     img: project1,
+    button: "View Site",
+    link: "https://marlenadowner.github.io/HTML-CSS-Code-Refactor/"
   },
   {
     title: "HTML Portfolio",
     text: "My motivation for this project was to create my first HTML + CSS personal web portfolio. I created the portfolio to showcase the projects I have build and also have a space to which future employers can easily have access and view my projects.",
     img: project2,
+    button: "View Project",
+    link: "https://marlenadowner.github.io/personal-portfolio/"
   },
   {
     title: "Bootstrap Portfolio",
     text: "My motivation for this project was to create a portfolio using Bootstrap, HTML, CSS and JavaScript. I built the project to show my skillset in Bootstrap and to showcase the projects I have worked on so far. With this portfolio, my work is easily accessible to future employers and colleagues.",
     img: project3,
+    button: "View Project",
+    link: "https://marlenadowner.github.io/Bootstrap-Portfolio/"
   },
   {
     title: "Planning Calender",
     text: "My motivation for this project was to build a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. The app run's in the browser and feature dynamically updated HTML and CSS powered by jQuery. The app will allow any user to keep track of their day while on the go. The app will save important events such as meetings, appointments ect in a colour coded guid for visualisation.",
     img: project4,
+    button: "View Project",
+    link: "https://marlenadowner.github.io/Planning-Calender/"
   },
   {
-    title: "Team Profile Generator",
-    text: "This is the text for card 1.",
+    title: "Weather Dashboard",
+    text: "My motivation was to build a 5 Day Weather Forecast app to retrieve weather data for cities apon users request.I built this project to give the user easy in accessing different weather condition when on the go. This app is perfect for someone who travels alot or even a commuter on their day to day tasks.",
     img: project5,
+    button: "View Project",
+    link: "https://marlenadowner.github.io/Weather-Dashboard/"
   },
   {
     title: "Dynamic Password Generator",
     text: "My motivation for this task was to create a application that employees can use to generate a random password based on criteria they’ve selected.It has a clean and polished user interface that is responsive to different wbe pages sizes. The app run's in the browser, and feature's dynamically updated HTML and CSS powered by JavaScript code that you write.",
     img: project6,
+    button: "View Project",
+    link: "https://marlenadowner.github.io/JavaScript-Password-Generator/"
   },
 ];
 
@@ -60,9 +72,13 @@ const Projects = () => {
                   <div className="card-body">
                     <h5 className="card-title">{card.title}</h5>
                     <p className="card-text">{card.text}</p>
+                    <div className="Button">
+                      <a href={card.link} className="viewButton">{card.button}</a>
+                    </div>
+
+                    </div>
                   </div>
                 </div>
-              </div>
             ))}
           </div>
         </div>
@@ -75,3 +91,6 @@ const Projects = () => {
 
 
 export default Projects;
+
+
+
