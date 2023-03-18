@@ -26,35 +26,40 @@ const cardsData = [
     text: "",
     img: project2,
     button: "Link",
-    link: "https://marlenadowner.github.io/personal-portfolio/"
+    link: "https://marlenadowner.github.io/personal-portfolio/",
+    github: "https://github.com/MarlenaDowner/personal-portfolio"
   },
   {
     title: "Bootstrap Portfolio",
     text: "",
     img: project3,
     button: "Link",
-    link: "https://marlenadowner.github.io/Bootstrap-Portfolio/"
+    link: "https://marlenadowner.github.io/Bootstrap-Portfolio/",
+    github: "https://github.com/MarlenaDowner/Bootstrap-Portfolio"
   },
   {
     title: "Planning Calender",
     text: "",
     img: project4,
     button: "Link",
-    link: "https://marlenadowner.github.io/Planning-Calender/"
+    link: "https://marlenadowner.github.io/Planning-Calender/",
+    github: "https://github.com/MarlenaDowner/Planning-Calender"
   },
   {
     title: "Weather Dashboard",
     text: "",
     img: project5,
     button: "Link",
-    link: "https://marlenadowner.github.io/Weather-Dashboard/"
+    link: "https://marlenadowner.github.io/Weather-Dashboard/",
+    github: "https://github.com/MarlenaDowner/Weather-Dashboard"
   },
   {
     title: "Password Generator",
     text: "",
     img: project6,
     button: "Link",
-    link: "https://marlenadowner.github.io/JavaScript-Password-Generator/"
+    link: "https://marlenadowner.github.io/JavaScript-Password-Generator/",
+    github: "https://github.com/MarlenaDowner/JavaScript-Password-Generator"
   },
 ];
 
@@ -75,16 +80,13 @@ const Projects = () => {
                   <img src={card.img} className="card-img-top" alt="Project" />
                   <div className="card-body">
                     <h5 className="card-title">{card.title}</h5>
-                    
                     <p className="card-text">{card.text}</p>
                     <div className="Button" style={{ display: "flex", alignItems: "center" }}>
-
                       <a href={card.link} className="viewButton"> {card.button} </a>
-
                       <div className="github">
-                      <a href={card.github}>
-                      <img className="icon" src={icon} alt="githublogo"/>
-                      </a>
+                        <a href={card.github}>
+                          <img className="icon" src={icon} alt="githublogo" />
+                        </a>
                       </div>
                     </div>
                   </div>
