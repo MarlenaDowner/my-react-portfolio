@@ -31,6 +31,12 @@ const CustomNavbar = () => {
                 </span>
             </div>
         </nav>
+
+
+
+
+
+
     );
 };
 

@@ -95,13 +95,13 @@ body {
 }
 
 .viewButton {
-  font-size: 1.1em;
+  font-size: 1em;
   color: #0059C1;
   font-weight: bold;
   display: inline-flex;
   background-color: #AF89FF; 
-  padding: 3px;
-  border-radius: 12px;
+  padding: 7px;
+  border-radius: 8px;
 }
 
 
@@ -195,3 +195,29 @@ h1, p {
   font-weight: bold;
   /* max-width: 720px; */
 }
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.card-body {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 10px;
+}
+
+h5 {
+  color: #0059C1;
+}
+
+.viewButton {
+  margin-right: 13px;
+}
+
+.card-title {
+  margin: 10px;
+}
+
