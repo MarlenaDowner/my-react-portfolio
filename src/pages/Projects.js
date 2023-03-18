@@ -69,9 +69,15 @@ const Projects = () => {
       <br />
       <div class="container">
         <div>
-          <h1 className="ProjectHeader">Welcome to my Projects!</h1>
-          <h2 className="ProjectsH2"> Have a look around 👀</h2>
-          <div class="Projectintro">My projects below is an exibition of my different skills sets I have learnt while taking my bootcamp in <h1 className="pBack">Front-End Web Development</h1>.My projects was created using: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js and Local Storage.</div>
+          <div className="ProjectHeader">
+            <div className="ProjectHeader-text">
+             Projects
+            </div>
+          </div>
+          <br></br>
+          <h2 className="ProjectsH2"> Have a look around...👀</h2>
+          <br></br>
+          <div class="Projectintro">My projects below is an exibition of my different skills sets I have learnt while enrolled my bootcamp in Front-End Web Development.My projects was created using: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js with some using Local Storage.</div>
           <br></br>
           <div className="row">
             {cardsData.map((card, index) => (
@@ -96,9 +102,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
     </div>
-
   );
 };
 
