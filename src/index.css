@@ -55,7 +55,31 @@ body {
 
 }
 
+/* ----------------------Nav Bar--------------------- */
 
+
+
+
+.gitnIcon {
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.pdf {
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.email {
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
 
 
 

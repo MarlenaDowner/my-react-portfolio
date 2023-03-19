@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getFID } from "web-vitals";
+import github from "../assets/pictures/github.svg";
+import pdf from "../assets/pictures/pdf.svg";
+import email from "../assets/pictures/email.svg";
 
 const CustomNavbar = () => {
   return (
@@ -34,6 +38,11 @@ const CustomNavbar = () => {
               </Link>
             </li>
           </ul>
+          <div className="Navicons">
+          <img className="gitnIcon" src={github} alt="githublogo" />
+            <img className="pdf" src={pdf} alt="githublogo" />
+            <img className="email" src={email} alt="githublogo" />
+        </div>
         </div>
       </div>
     </nav>
