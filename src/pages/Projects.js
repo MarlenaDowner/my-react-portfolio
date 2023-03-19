@@ -68,38 +68,37 @@ const Projects = () => {
   return (
     <div className="body2">
       <br />
-      <div class="container">
+      <div className="container">
         <div>
           <div className="ProjectHeader">
             <div className="ProjectHeader-text">
-             Projects
+              Projects
             </div>
           </div>
-          {/* <br></br> */}
-          {/* <h2 className="ProjectsH2"> Have a look around...👀</h2> */}
           <br></br>
-          <div class="Projectintro">My projects are an exibition of the skills sets I have learnt while enrolled in my Front-End Web Development Bootcamp. I used the following: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js and Local Storage.
-          <br></br>
-          <br></br>
-          Feel free to view my GitHib Repositories to get a detailed breakdown of each project listed and the motivation behind the project. You can also view projects not listed below in my repository...Have a look around 👀</div>
+          <div className="Projectintro">My projects are an exhibition of the skill sets I have learned while enrolled in my Front-End Web Development Bootcamp. I used the following: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js, and Local Storage.
+            <br></br>
+            <br></br>
+            Feel free to view my GitHub Repositories to get a detailed breakdown of each project listed and the motivation behind the project. You can also view projects not listed below in my repository...Have a look around 👀</div>
           <br></br>
           <div className="row">
             {cardsData.map((card, index) => (
               <div key={index} className="col-sm-6 col-md-4">
                 <div className="card">
-                  <img src={card.img} className="card-img-top" alt="Project" />
+                  <a href={card.link}>
+                    <img src={card.img} className="card-img-top" alt="Project" />
+                  </a>
                   <div className="card-body">
-                    <h5 className="card-title">{card.title}</h5>
+                    <a href={card.link}>
+                      <h5 className="card-title">{card.title}</h5>
+                    </a>
                     <p className="card-text">{card.text}</p>
-
-
                     <div className="Button" style={{ display: "flex", alignItems: "center" }}>
-                       {/* glob icon */}
+                      {/* globe icon */}
                       <a href={card.link} className="">
-                      <img className="globeIcon" src={globe} alt="githublogo" />
+                        <img className="globeIcon" src={globe} alt="githublogo" />
                       </a>
-
-                      {/* git hub icon */}
+                      {/* github icon */}
                       <div className="github">
                         <a href={card.github} className="">
                           <img className="gitIcon" src={icon} alt="githublogo" />
@@ -117,10 +116,4 @@ const Projects = () => {
   );
 };
 
-
 export default Projects;
-
-
-
-
-
