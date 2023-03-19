@@ -10,12 +10,13 @@ import project6 from "../assets/pictures/Project6.JPG";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import icon from "../assets/pictures/github.svg";
+import globe from "../assets/pictures/globe.svg";
 
 
 const cardsData = [
   {
     title: "Refactoring Existing Site",
-    text: "",
+    text: "HTML + CSS",
     img: project1,
     button: "Link",
     link: "https://marlenadowner.github.io/HTML-CSS-Code-Refactor/",
@@ -23,7 +24,7 @@ const cardsData = [
   },
   {
     title: "HTML Portfolio",
-    text: "",
+    text: "HTML + CSS",
     img: project2,
     button: "Link",
     link: "https://marlenadowner.github.io/personal-portfolio/",
@@ -31,7 +32,7 @@ const cardsData = [
   },
   {
     title: "Bootstrap Portfolio",
-    text: "",
+    text: "Bootstrap, CSS + JavaScript",
     img: project3,
     button: "Link",
     link: "https://marlenadowner.github.io/Bootstrap-Portfolio/",
@@ -39,7 +40,7 @@ const cardsData = [
   },
   {
     title: "Planning Calender",
-    text: "",
+    text: "HTML, jQuery, CSS + Local Storage",
     img: project4,
     button: "Link",
     link: "https://marlenadowner.github.io/Planning-Calender/",
@@ -47,7 +48,7 @@ const cardsData = [
   },
   {
     title: "Weather Dashboard",
-    text: "",
+    text: "HTML, Javascript + API",
     img: project5,
     button: "Link",
     link: "https://marlenadowner.github.io/Weather-Dashboard/",
@@ -55,7 +56,7 @@ const cardsData = [
   },
   {
     title: "Password Generator",
-    text: "",
+    text: "Javascript, CSS + HTML",
     img: project6,
     button: "Link",
     link: "https://marlenadowner.github.io/JavaScript-Password-Generator/",
@@ -74,10 +75,13 @@ const Projects = () => {
              Projects
             </div>
           </div>
+          {/* <br></br> */}
+          {/* <h2 className="ProjectsH2"> Have a look around...👀</h2> */}
           <br></br>
-          <h2 className="ProjectsH2"> Have a look around...👀</h2>
+          <div class="Projectintro">My projects are an exibition of the skills sets I have learnt while enrolled in my Front-End Web Development Bootcamp. I used the following: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js and Local Storage.
           <br></br>
-          <div class="Projectintro">My projects below is an exibition of my different skills sets I have learnt while enrolled my bootcamp in Front-End Web Development.My projects was created using: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js with some using Local Storage.</div>
+          <br></br>
+          Feel free to view my GitHib Repositories to get a detailed breakdown of each project listed and the motivation behind the project. You can also view projects not listed below in my repository...Have a look around 👀</div>
           <br></br>
           <div className="row">
             {cardsData.map((card, index) => (
@@ -87,11 +91,18 @@ const Projects = () => {
                   <div className="card-body">
                     <h5 className="card-title">{card.title}</h5>
                     <p className="card-text">{card.text}</p>
+
+
                     <div className="Button" style={{ display: "flex", alignItems: "center" }}>
-                      <a href={card.link} className="viewButton"> {card.button} </a>
+                       {/* glob icon */}
+                      <a href={card.link} className="">
+                      <img className="globeIcon" src={globe} alt="githublogo" />
+                      </a>
+
+                      {/* git hub icon */}
                       <div className="github">
-                        <a href={card.github}>
-                          <img className="icon" src={icon} alt="githublogo" />
+                        <a href={card.github} className="">
+                          <img className="gitIcon" src={icon} alt="githublogo" />
                         </a>
                       </div>
                     </div>

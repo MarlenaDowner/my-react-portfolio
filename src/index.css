@@ -70,7 +70,7 @@ body {
   margin-bottom: 5px;
   display: inline-flex;
   background-color: #AF89FF; 
-  padding: 6px;
+  padding: 10px;
   border-radius: 12px;
 }
 
@@ -90,7 +90,7 @@ body {
   font-weight: bold;
   display: inline-flex;
   background-color: #AF89FF; 
-  padding: 3px;
+  padding: 5px;
   border-radius: 12px;
 }
 
@@ -100,7 +100,7 @@ body {
   font-weight: bold;
   display: inline-flex;
   background-color: #AF89FF; 
-  padding: 7px;
+  padding: 10px;
   border-radius: 8px;
 }
 
@@ -197,7 +197,7 @@ h1, p {
   font-size: 35px;
   background-color: #AF89FF !important;
   color: #0059C1;
-  padding: 6px;
+  padding: 10px;
   border-radius: 12px;
 }
 
@@ -217,16 +217,33 @@ h1, p {
   font-size: 1.1em;
   /* text-align: justify; */
   color: #0059C1;
-  justify-content: center;
+  /* justify-content: center; */
   font-weight: 450;
   /* font-weight: bold; */
   /* max-width: 720px; */
 }
 
-.icon {
+.globeIcon {
+  height: 32px;
+  width: 32px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+
+.gitIcon {
   height: 35px;
   width: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
+
+
+/* .navicons {
+  height: 55px;
+  width: 55px;
+} */
 
 .card-body {
 display: flex;
@@ -246,7 +263,29 @@ h5 {
 
 .card-title {
   margin: 10px;
+  font-size: 1.2em;
+  color: #0059C1;
+  font-weight: bold;
+  display: inline-flex;
+  /* background-color: #AF89FF;  */
+  padding: 7px;
+  border-radius: 8px;
 }
+
+
+/* .viewButton {
+  font-size: 1em;
+  color: #0059C1;
+  font-weight: bold;
+  display: inline-flex;
+  background-color: #AF89FF; 
+  padding: 7px;
+  border-radius: 8px;
+} */
+
+
+
+
 
 
 .card {
