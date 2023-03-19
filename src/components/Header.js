@@ -15,7 +15,7 @@ const navLinks = [
 ];
 
 const CustomNavbar = () => {
-  const handlePdfClick = () => {
+  const handleCVDownload = () => {
     window.open(navLinks[0].cv, '_blank');
   };
 
@@ -59,7 +59,7 @@ const CustomNavbar = () => {
             <a href={navLinks[0].github} className="">
               <img className="gitnIcon" src={github} alt="githublogo" />
             </a>
-            <a href="/cv.pdf" target='_blank' download>
+            <a href={navLinks[0].cv} download onClick={handleCVDownload}>
               <img src={pdf} className="pdf" alt="pdf-icon" />
             </a>
             <a href={`mailto:${navLinks[0].email}`} className="">
