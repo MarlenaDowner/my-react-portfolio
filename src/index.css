@@ -64,10 +64,17 @@ body {
 }
 
 
+.linked {
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+}
+
 .gitnIcon {
   height: 35px;
   width: 35px;
   margin-top: 5px;
+  margin-left: 20px;
 }
 
 .pdf {

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import CustomNavbar from './components/Header';
+import Header from './components/Header';
 
 
 
@@ -18,9 +18,7 @@ function App() {
       <div className="body1">
       {/* <Header style={{ backgroundColor: backgroundColor }} /> */}
 
-        {/* <Header/> */}
-
-        <CustomNavbar/>
+        <Header/>
 
 
         <Routes>

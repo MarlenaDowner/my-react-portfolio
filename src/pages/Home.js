@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
+        // <div className="body1">
       
             <section className="jumbo">
               <h1 className="Welcome">Welcome to my Portfolio</h1>
@@ -15,7 +16,7 @@ const Home = () => {
                     </div>
             </section>
   
-       
+            // </div>
 
 
        
