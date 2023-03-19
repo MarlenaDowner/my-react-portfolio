@@ -27,7 +27,6 @@ body {
   flex-direction: column;
 }
 
-
 .body1 {
   background: url("./assets/pictures/1homepage.png");
   background-repeat: no-repeat;
@@ -35,8 +34,6 @@ body {
   background-position: bottom;
   height: 100vh;
   flex: 1;
- 
-
 }
 
 .body2 {
@@ -62,7 +59,6 @@ body {
   margin-right: 40px;
   font-size: 20px;
 }
-
 
 .linked {
   height: 35px;
@@ -103,12 +99,7 @@ body {
   
 }
 
-/* ----------------------Landing Page--------------------- */
-
-/* Header */
-
-
-/* Landing Page Jumbotron */
+/* ----------------------Landing Page/Home--------------------- */
 
 .jumbo {
   justify-content: flex-start;
@@ -118,7 +109,6 @@ body {
 
 .intro {
   font-size: 1em;
-  /* text-align: justify; */
   color: #0059C1;
   font-weight: bold;
   max-width: 520px;
@@ -138,7 +128,6 @@ body {
   margin-bottom: 5px;
   text-align: center;
   display: inline-block;
-  /* display: inline-flex; */
   background-color: #AF89FF; 
   padding: 6px;
 }
@@ -163,7 +152,6 @@ body {
   border-radius: 8px;
 }
 
-
 .HomeH2 {
   font-size: 3em;
   color: #0059C1;
@@ -187,25 +175,16 @@ h1, p {
   margin-top: -400px; 
 }
 
-/* .mainpic {
-  position: relative; 
-  padding-left: 500px;
-  padding-top: -700px;
-} */
-
 .h { 
  background: none;
 }
 
-
-/* Header */
 
 .header {
   font-size: 1.2rem; 
   color:#0059C1;
   font-weight: bold;
   height: 50px;
-  /* background-color: transparent !important; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -216,9 +195,7 @@ h1, p {
 
 }
 
-
 .container {
-  /* display: block; */
   justify-content: center;
 }
 
@@ -229,29 +206,12 @@ h1, p {
   padding-bottom: 10px;
 }
 
-/* delet this one
-.ProjectHeader {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  display: inline-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #AF89FF; 
-  padding: 6px;
-  border-radius: 12px;
-} */
-
 .projectspic{
   position: relative;
   width: 55%;
   margin-left: 340px;
   margin-top: -150px
 }
-
-
-
 
 .ProjectHeader {
   font-weight: bold;
@@ -266,43 +226,12 @@ h1, p {
   margin-bottom: 15px;
 }
 
-/* delet this one
-.ProjectHeader {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .ProjectHeader-text {
-  font-size: 2.2em;
-  background-color: #AF89FF !important;
-  color: #0059C1;
-  padding: 10px;
-  border-radius: 12px;
-} */
-
-
-
-/* .ProjectsH2 {
-  font-size: 1.5em;
-  display: flex;
-  justify-content: center;
-  color: #0059C1;
-  margin-bottom: 10px;
-} */
-
-
 .Projectintro {
   display: flex;
   font-size: 1.1em;
   text-align: justify;
   color: #0059C1;
-  /* justify-content: center; */
   font-weight: 450;
-  /* font-weight: bold; */
   max-width: 635px;
   margin-left: 10px;
 }
@@ -314,20 +243,12 @@ h1, p {
   margin-right: 10px;
 }
 
-
-
 .gitIcon {
   height: 35px;
   width: 35px;
   margin-top: 10px;
   margin-left: 10px;
 }
-
-
-/* .navicons {
-  height: 55px;
-  width: 55px;
-} */
 
 .card-body {
 display: flex;
@@ -351,21 +272,9 @@ h5 {
   color: #0059C1;
   font-weight: bold;
   display: inline-flex;
-  /* background-color: #AF89FF;  */
   padding: 7px;
   border-radius: 8px;
 }
-
-
-/* .viewButton {
-  font-size: 1em;
-  color: #0059C1;
-  font-weight: bold;
-  display: inline-flex;
-  background-color: #AF89FF; 
-  padding: 7px;
-  border-radius: 8px;
-} */
 
 .card {
   transition: all 0.3s ease-in-out;
@@ -405,7 +314,8 @@ h5 {
 }
 
 
-/* Conbact Us Page */
+/* -----------------Conbact Us Page -------------------*/
+
 
 .Contact{
   width: 200px;
@@ -455,9 +365,6 @@ h5 {
       max-width: 520px;
     }
 
-
-/* =========================== */
-
 .contactHeader {
   font-weight: bold;
   font-size: 2.2em;
@@ -475,7 +382,6 @@ h5 {
 .Projectintro{
   margin-top: 30px;
 }
-
 
 .contactPic{
   position: relative;
