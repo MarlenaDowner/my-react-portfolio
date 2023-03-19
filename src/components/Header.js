@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const CustomNavbar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
@@ -32,12 +31,6 @@ const CustomNavbar = () => {
                 </span>
             </div>
         </nav>
-
-
-
-
-
-
     );
 };
 
