@@ -6,11 +6,10 @@ import project3 from "../assets/pictures/Project3.JPG";
 import project4 from "../assets/pictures/Project4.JPG";
 import project5 from "../assets/pictures/Project5.JPG";
 import project6 from "../assets/pictures/Project6.JPG";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import icon from "../assets/pictures/github.svg";
 import globe from "../assets/pictures/globe.svg";
+import bulb from "../assets/pictures/projectspic.jpg";
 
 
 const cardsData = [
@@ -76,11 +75,16 @@ const Projects = () => {
             </div>
           </div>
           <br></br>
-          <div className="Projectintro">My projects are an exhibition of the skill sets I have learned while enrolled in my Front-End Web Development Bootcamp. I used the following: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js, and Local Storage.
+          <div className="Projectintro">My projects are an exhibition of the skill sets I have learned while enrolled in my Front-End Web Development Bootcamp. I used the following: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, API request, Node.js, and Local Storage.Feel free to view my GitHub Repositories to get a detailed breakdown of each project listed and the motivation behind the project. You can also view projects not listed below in my repository
             <br></br>
             <br></br>
-            Feel free to view my GitHub Repositories to get a detailed breakdown of each project listed and the motivation behind the project. You can also view projects not listed below in my repository...Have a look around 👀</div>
+            Have a look around 👀</div>
           <br></br>
+
+          <div className="projectspic">
+            <img src={bulb} className="projectspic" alt="logo"></img>
+          </div>
+
           <div className="row">
             {cardsData.map((card, index) => (
               <div key={index} className="col-sm-6 col-md-4">

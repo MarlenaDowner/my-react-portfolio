@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { getFID } from "web-vitals";
+// import { getFID } from "web-vitals";
 import github from "../assets/pictures/github.svg";
 import pdf from "../assets/pictures/pdf.svg";
 import email from "../assets/pictures/email.svg";
