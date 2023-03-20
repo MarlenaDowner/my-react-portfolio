@@ -20,13 +20,27 @@ My motivation for this project was to create a dynamitic scaffolding portfolio, 
 
 Below are screenshots of my concept designs as well as from the live page. 
 
-Figma conccpt
+Figma concept
+
+![Figma conccpt ](./pictures/screenshot4.JPG)
 
 
-<!-- ![Figma conccpt ](../assets/pictures/screenshot1.JPG) -->
+Home Page 
+
+![Figma conccpt ](./pictures/screenshot1.JPG)
+
+Projects Page
+
+![Figma conccpt ](./pictures/screenshot2.JPG)
+
+Contact Page
+
+![Figma conccpt ](./pictures/screenshot3.JPG)
 
 
 ## Links
+
+https://github.com/MarlenaDowner/my-react-portfolio 
 
 
 ## License

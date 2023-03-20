@@ -10,7 +10,7 @@ const Home = () => {
             <br></br>
             <Link className="viewButton" to="/projects">View Projects!</Link>
             <div className="mainpic">
-                <img src={logo} alt="logo"></img>
+                <img src={logo} className="mainpic" alt="logo"></img>
             </div>
         </section>
 

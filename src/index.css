@@ -168,11 +168,13 @@ h1, p {
 }
 
 .mainpic {
-  position: none; 
-  width: 550px;
-  height: 550px;
-  margin-left: 500px;
-  margin-top: -400px; 
+margin-top: -200px;
+position: relative;
+width: 70%;
+margin-right: 50px;
+/* max-width: 300px; */
+display: inline;
+float: right;
 }
 
 .h { 
@@ -386,11 +388,435 @@ form {
 
 .contactPic {
   /* margin-left: 300px; */
-  /* margin-top: -20px; */
+  margin-top: -20px;
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   display: inline;
   float: right;
 }
 
+
+
+/*---------------------Media Screens------------------------------*/
+
+@media screen and (min-width: 350px) and (max-width: 480px) {
+
+  .contactPic {
+    /* margin-left: 300px; */
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: inline;
+    float: right;
+}
+
+  .Contactintro {
+    display: flex;
+    font-size: 1.1em;
+    color: #0059C1;
+    font-weight: 450;
+    max-width: 735px !important;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+
+  .projectspic {
+    position: relative;
+    width: 55%;
+    margin-left: 120px;
+    margin-top: -290px;
+}
+
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: calc(-1 * var(--bs-gutter-y)); */
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-top: 270px;
+}
+
+  .mainpic {
+    margin-top: -350px;
+    position: relative;
+    width: 80%;
+    margin-right: 10%;
+    /* max-width: 300px; */
+    display: inline;
+    float: right;
+}
+
+  .jumbo {
+    /* justify-content: flex-start;
+    padding-top: 15%;
+    padding-left: 0px; */
+    padding: 0 10px;
+    margin-top: 200px;
+}
+
+  .intro {
+    font-size: 0.9rem;
+    color: #0059C1;
+    font-weight: bold;
+    max-width: 420px;
+    text-align: justify;
+  
+}
+ 
+}
+
+@media screen and (min-width: 480px) and (max-width: 769px) {
+
+  .Contactintro {
+    display: flex;
+    font-size: 1.1em;
+    color: #0059C1;
+    font-weight: 450;
+    max-width: 735px !important;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+
+  .contactPic {
+    /* margin-left: 300px; */
+    margin-top: 20px;
+    margin-right: 50px;
+    position: relative;
+    width: 75%;
+    max-width: 400px;
+    display: inline;
+    float: right;
+}
+
+  .projectspic {
+    position: relative;
+    width: 55%;
+    margin-left: 160px;
+    margin-top: 0px;
+  
+}
+
+  .intro {
+    font-size: 1em;
+    color: #0059C1;
+    font-weight: bold;
+    max-width: 420px;
+}
+
+  .mainpic {
+    margin-top: -340px;
+    position: relative;
+    width: 70%;
+    margin-right: 0px;
+    /* max-width: 300px; */
+    display: inline;
+    float: right;
+}
+
+  .jumbo {
+    justify-content: flex-start;
+    padding-top: 50%;
+    padding-left: 40px;
+}
+  
+}
+
+  
+
+  @media  screen and (min-width: 769px) and (max-width: 999px) {
+
+
+    .Projectintro {
+      display: flex;
+      font-size: 1.1em;
+      text-align: justify;
+      color: #0059C1;
+      font-weight: 450;
+      max-width: 535px;
+      padding: 0 10px;
+  }
+
+
+  .contactPic {
+    margin-left: 100px;
+    margin-top: 20px !important;
+    margin-right: 110px;
+    position: relative;
+    width: 110%;
+    max-width: 300px;
+}
+
+    .projectspic {
+      position: relative;
+      width: 55%;
+      margin-left: 270px;
+      margin-top: -150px;
+  }
+
+  .Contactintro {
+    display: flex;
+    font-size: 1.1em;
+    color: #0059C1;
+    font-weight: 450;
+    max-width: 735px !important;
+    padding: 0 10px;
+}
+
+    .row {
+      --bs-gutter-x: 1.5rem;
+      margin-left: 50px !important;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 60px !important;
+      margin-right: calc(-.5 * var(--bs-gutter-x));
+  }
+
+    .intro {
+      font-size: 1em;
+      color: #0059C1;
+      font-weight: bold;
+      max-width: 420px;
+  }
+
+    .mainpic {
+      margin-top: -150px;
+      position: relative;
+      width: 65%;
+      display: inline;
+      float: right;
+      margin-right: 20px;
+  }
+
+    .nav-item {
+      font-weight: bold;
+      margin-right: 40px;
+      font-size: 20px;
+    }
+    
+    .linked {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+    }
+    
+    .gitnIcon {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+    
+    .pdf {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+    
+    .email {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+    
+    .nav-link {
+      color: #121c7a !important;
+    }
+    
+    .Navicons{
+      border-style: solid;
+      border-width: 2px;
+      padding: 5px;
+      
+    }
+
+
+
+
+
+
+
+      
+  }
+
+  @media  screen and (min-width: 1000px) and (max-width: 1280px) {
+    .contactPic {
+        margin-top: -20px;
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        display: inline;
+        float: right;
+      }
+
+      .nav-item {
+        font-weight: bold;
+        margin-right: 40px;
+        font-size: 20px;
+      }
+      
+      .linked {
+        height: 35px;
+        width: 35px;
+        margin-top: 5px;
+      }
+      
+      .gitnIcon {
+        height: 35px;
+        width: 35px;
+        margin-top: 5px;
+        margin-left: 20px;
+      }
+      
+      .pdf {
+        height: 35px;
+        width: 35px;
+        margin-top: 5px;
+        margin-left: 20px;
+      }
+      
+      .email {
+        height: 35px;
+        width: 35px;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+      
+      .nav-link {
+        color: #121c7a !important;
+      }
+      
+      .Navicons{
+        border-style: solid;
+        border-width: 2px;
+        padding: 5px;
+      }
+     }
+    
+    
+
+  @media  screen and (min-width: 1281px) and (max-width: 1350px) {
+
+    .jumbo {
+      justify-content: flex-start;
+      padding-top: 20%;
+      padding-left: 40px;
+  }
+
+
+    .mainpic {
+      margin-top: -200px;
+      position: relative;
+      width: 70%;
+      margin-right: 50px;
+      /* max-width: 300px; */
+      display: inline;
+      float: right;
+      }
+
+
+    .Projectintro {
+      display: flex;
+      font-size: 1.1em;
+      text-align: justify;
+      color: #0059C1;
+      font-weight: 450;
+      max-width: 760px;
+      padding: 0 10px;
+  }
+
+
+  .projectspic {
+    position: relative;
+    width: 55%;
+    margin-left: 410px;
+    margin-top: -150px;
+}
+
+    form {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      margin-left: 15px;
+      margin-top: 40px;
+      width: 50%;
+  }
+
+    .contactPic {
+      /* margin-left: 300px; */
+      margin-right: 50px;
+      margin-top: -60px;
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+      display: inline;
+      float: right;
+  }
+
+    .nav-item {
+      font-weight: bold;
+      margin-right: 40px;
+      font-size: 20px;
+    }
+    
+    .linked {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+    }
+    
+    .gitnIcon {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+    
+    .pdf {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+    
+    .email {
+      height: 35px;
+      width: 35px;
+      margin-top: 5px;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+    
+    .nav-link {
+      color: #121c7a !important;
+    }
+    
+    .Navicons{
+      border-style: solid;
+      border-width: 2px;
+      padding: 5px;
+    }
+
+
+   }
+    
+
+
+
+
+
+
+
+  
