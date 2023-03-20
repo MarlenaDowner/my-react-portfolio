@@ -1,5 +1,4 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
@@ -13,16 +12,13 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename='my-react-portfolio'>
       <div className="body1">
-  
         <Header/>
         <Routes>
-          <Route path="/my-react-portfolio">
-          <Route index element={<Home />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="projects" element={<Projects />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
