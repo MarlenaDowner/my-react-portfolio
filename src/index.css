@@ -29,7 +29,7 @@ body {
 
 .body1 {
   background: url("./assets/pictures/1homepage.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: bottom;
   height: 100vh;
@@ -233,7 +233,7 @@ h1, p {
   color: #0059C1;
   font-weight: 450;
   max-width: 635px;
-  margin-left: 10px;
+  padding: 0 10px;
 }
 
 .globeIcon {
@@ -321,15 +321,15 @@ h5 {
   width: 200px;
 }
 
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 50%;
-    font-size: 16px;
-    margin-left: 15px;
-    margin-top: -330px;
-  }
+form {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-left: 15px;
+  /* margin-top: -330px; */
+  width: 50%;
+}
 
     input {
       width: 100%;
@@ -383,9 +383,14 @@ h5 {
   margin-top: 30px;
 }
 
-.contactPic{
+
+.contactPic {
+  /* margin-left: 300px; */
+  /* margin-top: -20px; */
   position: relative;
-  width: 63%;
-  margin-left: 300px;
-  margin-top: -20px
+  width: 100%;
+  max-width: 300px;
+  display: inline;
+  float: right;
 }
+
