@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <Router basename='my-react-portfolio'>
+    <Router basename='/my-react-portfolio'>
       <div className="body1">
         <Header/>
         <Routes>
