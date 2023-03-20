@@ -15,12 +15,14 @@ function App() {
   return (
     <Router>
       <div className="body1">
-      {/* <Header style={{ backgroundColor: backgroundColor }} /> */}
+  
         <Header/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path='/*'>
+          <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          </Route>
         </Routes>
       </div>
     </Router>
