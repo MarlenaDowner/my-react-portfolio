@@ -18,10 +18,10 @@ function App() {
   
         <Header/>
         <Routes>
-          <Route path='/*'>
+          <Route path="/my-react-portfolio">
           <Route index element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="projects" element={<Projects />} />
           </Route>
         </Routes>
       </div>
