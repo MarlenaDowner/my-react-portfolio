@@ -8,7 +8,7 @@ import project5 from "../assets/pictures/Project5.JPG";
 import project6 from "../assets/pictures/Project6.JPG";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import icon from "../assets/pictures/github.svg";
-import globe from "../assets/pictures/globe.svg";
+import globe from "../assets/pictures/globe-solid.svg";
 import bulb from "../assets/pictures/projectspic.jpg";
 
 
