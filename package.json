@@ -1,7 +1,7 @@
-{  "name": "my-react-portfolio",
+{ "homepage": "http://{marlenadowner}.github.io/my-react-portfolio",
+  "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{marlenadowner}.github.io/my-react-portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
