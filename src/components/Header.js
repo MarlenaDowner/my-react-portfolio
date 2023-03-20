@@ -10,7 +10,7 @@ const navLinks = [
     linkedin: "https://www.linkedin.com/in/marlena-asantewah-downer-74562213b/",
     github: "https://github.com/MarlenaDowner",
     cv: "/cv.pdf",
-    email: "example@example.com"
+    email: "marlenadowner@hotmail.co.uk"
   },
 ];
 
