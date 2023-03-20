@@ -42,6 +42,8 @@ Contact Page
 
 https://github.com/MarlenaDowner/my-react-portfolio 
 
+https://marlenadowner.github.io/my-react-portfolio/ 
+
 
 ## License
 
